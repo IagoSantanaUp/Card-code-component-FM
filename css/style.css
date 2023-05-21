@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Outfit';
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.imagem__card{
+    height:  288px;
+    width: 288px;
+    border-radius: 10px;
+  
+}
+
+.card{
+    height: 480px;
+    width: 320px;
+    background-color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+
+
+.titulo__descricao{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 16px 0;
+    line-height: 28px;
+}
+
+.paragrafo__descricao{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    line-height: 18px;
+    
+}
